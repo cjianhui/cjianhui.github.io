@@ -1,7 +1,7 @@
 html {
-    background-color: #5f45bb;
-    background-image: linear-gradient(to bottom right, #180cac, #d054e4);
-    color: #fff;
+    background-color: #ffffff;
+    background-image: linear-gradient(to bottom right, rgb(0, 188, 241), rgb(24, 12, 172));
+    color: #ffffff;
     font-family: "Quicksand", sans-serif;
     font-size: 16px;
     -moz-osx-font-smoothing: grayscale;
@@ -45,10 +45,10 @@ a {
 
 /* 3. Specific */
 .wallpaper {
-    background-image: url("../assets/austria.jpg");
+    background-image: url("../assets/nature.jpg");
     background-position: center;
     background-size: cover;
-    opacity: 0.2;
+    opacity: 0.9;
     position: fixed;
 }
 
@@ -90,19 +90,19 @@ a {
 }
 
 .job {
-    color: #ffe479;
+    color: rgb(181, 218, 230);
     font-size: 0.75rem;
 }
 
 .hr {
-    background-color: #ff470f;
+    background-color: hsl(171, 100%, 41%);
     border: none;
     content: "";
     height: 1px;
     margin-bottom: 1.5rem;
     margin-top: 1.5rem;
     transform-origin: center left;
-    width: 4rem;
+    width: 7rem;
 }
 
 .description {
@@ -116,10 +116,10 @@ a {
 }
 
 .button {
-    background-color: #fff;
+    background-color: hsl(171, 100%, 41%);
     border-radius: 290486px;
     box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
-    color: #9013fe;
+    color: white;
     display: inline-block;
     font-size: 0.875rem;
     line-height: 1;
